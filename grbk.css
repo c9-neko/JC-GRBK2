@@ -5,6 +5,8 @@ body {
   margin: 0;
   padding: 0;
   color: #333;
+}
+body,footer{
   background-image: url("R.jpg"); /* 图片路径 */
         background-size: cover; /* 背景图片填充整个屏幕 */
         background-position: center; /* 背景图片居中 */
@@ -30,6 +32,12 @@ body {
 .container {
   max-width: 1200px;
   margin: 0 auto;
+}
+/* 半透明背景和白色边框 */
+.card,
+.list-group-item,.pagination .page-link {
+  background-color: rgba(255, 255, 255, 0.3) !important; /* 半透明黑色背景 */
+  border: 1px solid rgba(255, 255, 255, 0.3) !important; /* 半透明白色边框 */
 }
 
 /* 文章列表 */
@@ -70,7 +78,7 @@ h1 {
 
 .card-body a {
   text-decoration: none;
-  color: #4caf50;
+  color: #962a86;
 }
 
 /* 页脚 */
